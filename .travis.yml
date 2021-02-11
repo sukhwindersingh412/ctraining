@@ -5,12 +5,9 @@ compiler:
   -gcc
   
 before install:
-  -sudo apt-get update
-  -sudo apt-get -y install libunit1 libunit1-c libunit1-dev
-    
+  - sudo apt-get update
+  - sudo apt-get -y install libunit1 libunit1-c libunit1-dev
    
-install: 
-  -echo  "Reached Install Section"
   
 script:
   -echo "Reached Script Section"
