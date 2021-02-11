@@ -1,0 +1,19 @@
+language: c
+
+compiler: 
+
+  -gcc
+  
+before install:
+  -sudo apt-get update
+    
+   
+install: 
+  -echo  "Reached Install Section"
+  
+script:
+  -echo "Reached Script Section"
+  -gcc    helloworld.c -o output
+  -./output
+  
+  
