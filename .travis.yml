@@ -10,8 +10,8 @@ before install:
    
   
 script:
-  -echo "Reached Script Section"
-  -gcc  HelloWorld.c -o output
-  -./output
+  - echo "Reached Script Section"
+  - gcc     HelloWorld.c -o output
+  - ./output
   
   
